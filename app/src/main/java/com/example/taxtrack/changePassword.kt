@@ -2,7 +2,6 @@ package com.example.taxtrack
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,7 +14,7 @@ class changePassword : AppCompatActivity() {
 
         buttonBack.setOnClickListener {
             // Cuando se hace clic en el botón de retroceso, inicia LoginActivity
-            val intent = Intent(this, login::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish() // Esto finalizará la actividad actual (ChangePasswordActivity)
         }

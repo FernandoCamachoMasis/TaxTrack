@@ -18,7 +18,7 @@
             android:name=".changePassword"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".loginn"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

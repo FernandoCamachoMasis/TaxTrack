@@ -14,7 +14,7 @@ class passwordChange : AppCompatActivity() {
 
         buttonBack.setOnClickListener {
             // Cuando se hace clic en el botón de retroceso, inicia LoginActivity
-            val intent = Intent(this, login::class.java)
+            val intent = Intent(this, changePassword::class.java)
             startActivity(intent)
             finish() // Esto finalizará la actividad actual (ChangePasswordActivity)
         }
